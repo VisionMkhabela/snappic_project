@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012C97965A0364A41DAB427C /* Pods_SnappicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411DF8AA427E7C4F5B01F2BF /* Pods_SnappicUITests.framework */; };
+		24FBCD67E4B7B54334C06C04 /* Pods_SnappicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E84D2F6D4760FA576DB24EC /* Pods_SnappicTests.framework */; };
+		4047D7A2208C82B500383444 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4047D7A1208C82B500383444 /* Session.swift */; };
+		4047D7A5208CD2BF00383444 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4047D7A4208CD2BF00383444 /* Constants.swift */; };
+		40A2F9612087595C0059F198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2F9602087595C0059F198 /* AppDelegate.swift */; };
+		40A2F9682087595C0059F198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A2F9672087595C0059F198 /* Assets.xcassets */; };
+		40A2F96B2087595C0059F198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A2F9692087595C0059F198 /* LaunchScreen.storyboard */; };
+		40A2F9762087595D0059F198 /* SnappicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2F9752087595D0059F198 /* SnappicTests.swift */; };
+		40A2F9812087595D0059F198 /* SnappicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2F9802087595D0059F198 /* SnappicUITests.swift */; };
+		40A2F991208A82F50059F198 /* ExamplesDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2F990208A82F50059F198 /* ExamplesDefaults.swift */; };
+		40A2F993208A83560059F198 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2F992208A83560059F198 /* Env.swift */; };
+		40A2F998208BABA00059F198 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A2F997208BABA00059F198 /* Home.storyboard */; };
+		40A2F99A208BABAD0059F198 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2F999208BABAD0059F198 /* HomeViewController.swift */; };
+		40A2F99D208BAF3B0059F198 /* IBTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2F99C208BAF3B0059F198 /* IBTextfield.swift */; };
+		40A2F99F208BAF5F0059F198 /* IBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2F99E208BAF5E0059F198 /* IBButton.swift */; };
+		40A2F9A1208BB6A90059F198 /* HomeViewIBOutlets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2F9A0208BB6A90059F198 /* HomeViewIBOutlets.swift */; };
+		655D02255284D9D8FA3111FD /* Pods_Snappic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20610A1628B948AA755E3C3C /* Pods_Snappic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40A2F9722087595D0059F198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A2F9552087595C0059F198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A2F95C2087595C0059F198;
+			remoteInfo = Snappic;
+		};
+		40A2F97D2087595D0059F198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A2F9552087595C0059F198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A2F95C2087595C0059F198;
+			remoteInfo = Snappic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092047ADEC36DF7A5D008BA1 /* Pods-Snappic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snappic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snappic/Pods-Snappic.release.xcconfig"; sourceTree = "<group>"; };
+		0FD322C2B62F5FB5A07EAE2E /* Pods-Snappic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snappic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snappic/Pods-Snappic.debug.xcconfig"; sourceTree = "<group>"; };
+		20610A1628B948AA755E3C3C /* Pods_Snappic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snappic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B69418B9661913D6DD6FFD1 /* Pods-SnappicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnappicUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnappicUITests/Pods-SnappicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4047D7A1208C82B500383444 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		4047D7A4208CD2BF00383444 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		40A2F95D2087595C0059F198 /* Snappic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snappic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A2F9602087595C0059F198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40A2F9672087595C0059F198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40A2F96A2087595C0059F198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40A2F96C2087595C0059F198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A2F9712087595D0059F198 /* SnappicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnappicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A2F9752087595D0059F198 /* SnappicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappicTests.swift; sourceTree = "<group>"; };
+		40A2F9772087595D0059F198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A2F97C2087595D0059F198 /* SnappicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnappicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A2F9802087595D0059F198 /* SnappicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappicUITests.swift; sourceTree = "<group>"; };
+		40A2F9822087595D0059F198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A2F990208A82F50059F198 /* ExamplesDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesDefaults.swift; sourceTree = "<group>"; };
+		40A2F992208A83560059F198 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		40A2F997208BABA00059F198 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		40A2F999208BABAD0059F198 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		40A2F99C208BAF3B0059F198 /* IBTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBTextfield.swift; sourceTree = "<group>"; };
+		40A2F99E208BAF5E0059F198 /* IBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBButton.swift; sourceTree = "<group>"; };
+		40A2F9A0208BB6A90059F198 /* HomeViewIBOutlets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewIBOutlets.swift; sourceTree = "<group>"; };
+		411DF8AA427E7C4F5B01F2BF /* Pods_SnappicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnappicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E84D2F6D4760FA576DB24EC /* Pods_SnappicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnappicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F77711DEA2EAFF7082F43A0 /* Pods-SnappicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnappicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnappicTests/Pods-SnappicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5CA9FC15C957CC179057675 /* Pods-SnappicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnappicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnappicTests/Pods-SnappicTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC76A2FC192387493E64AEDA /* Pods-SnappicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnappicUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnappicUITests/Pods-SnappicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40A2F95A2087595C0059F198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655D02255284D9D8FA3111FD /* Pods_Snappic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A2F96E2087595D0059F198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FBCD67E4B7B54334C06C04 /* Pods_SnappicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A2F9792087595D0059F198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012C97965A0364A41DAB427C /* Pods_SnappicUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4047D79E208C7C4400383444 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4047D7A1208C82B500383444 /* Session.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4047D7A3208CD23500383444 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				40A2F990208A82F50059F198 /* ExamplesDefaults.swift */,
+				40A2F992208A83560059F198 /* Env.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		40A2F9542087595C0059F198 = {
+			isa = PBXGroup;
+			children = (
+				40A2F95F2087595C0059F198 /* Snappic */,
+				40A2F9742087595D0059F198 /* SnappicTests */,
+				40A2F97F2087595D0059F198 /* SnappicUITests */,
+				40A2F95E2087595C0059F198 /* Products */,
+				7F92C323020AA6494D37BB35 /* Pods */,
+				B42D06376FF8171818F195B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40A2F95E2087595C0059F198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A2F95D2087595C0059F198 /* Snappic.app */,
+				40A2F9712087595D0059F198 /* SnappicTests.xctest */,
+				40A2F97C2087595D0059F198 /* SnappicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40A2F95F2087595C0059F198 /* Snappic */ = {
+			isa = PBXGroup;
+			children = (
+				40A2F994208BAB6A0059F198 /* Views */,
+				4047D79E208C7C4400383444 /* Models */,
+				40A2F99B208BAEAB0059F198 /* Designables */,
+				4047D7A3208CD23500383444 /* Libraries */,
+				40A2F9602087595C0059F198 /* AppDelegate.swift */,
+				40A2F9672087595C0059F198 /* Assets.xcassets */,
+				40A2F9692087595C0059F198 /* LaunchScreen.storyboard */,
+				40A2F96C2087595C0059F198 /* Info.plist */,
+			);
+			path = Snappic;
+			sourceTree = "<group>";
+		};
+		40A2F9742087595D0059F198 /* SnappicTests */ = {
+			isa = PBXGroup;
+			children = (
+				40A2F9752087595D0059F198 /* SnappicTests.swift */,
+				40A2F9772087595D0059F198 /* Info.plist */,
+			);
+			path = SnappicTests;
+			sourceTree = "<group>";
+		};
+		40A2F97F2087595D0059F198 /* SnappicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40A2F9802087595D0059F198 /* SnappicUITests.swift */,
+				40A2F9822087595D0059F198 /* Info.plist */,
+			);
+			path = SnappicUITests;
+			sourceTree = "<group>";
+		};
+		40A2F994208BAB6A0059F198 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40A2F996208BAB8B0059F198 /* HomeView */,
+				4047D7A4208CD2BF00383444 /* Constants.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40A2F996208BAB8B0059F198 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				40A2F997208BABA00059F198 /* Home.storyboard */,
+				40A2F999208BABAD0059F198 /* HomeViewController.swift */,
+				40A2F9A0208BB6A90059F198 /* HomeViewIBOutlets.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		40A2F99B208BAEAB0059F198 /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				40A2F99E208BAF5E0059F198 /* IBButton.swift */,
+				40A2F99C208BAF3B0059F198 /* IBTextfield.swift */,
+			);
+			path = Designables;
+			sourceTree = "<group>";
+		};
+		7F92C323020AA6494D37BB35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FD322C2B62F5FB5A07EAE2E /* Pods-Snappic.debug.xcconfig */,
+				092047ADEC36DF7A5D008BA1 /* Pods-Snappic.release.xcconfig */,
+				4F77711DEA2EAFF7082F43A0 /* Pods-SnappicTests.debug.xcconfig */,
+				B5CA9FC15C957CC179057675 /* Pods-SnappicTests.release.xcconfig */,
+				BC76A2FC192387493E64AEDA /* Pods-SnappicUITests.debug.xcconfig */,
+				3B69418B9661913D6DD6FFD1 /* Pods-SnappicUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B42D06376FF8171818F195B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20610A1628B948AA755E3C3C /* Pods_Snappic.framework */,
+				4E84D2F6D4760FA576DB24EC /* Pods_SnappicTests.framework */,
+				411DF8AA427E7C4F5B01F2BF /* Pods_SnappicUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40A2F95C2087595C0059F198 /* Snappic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A2F9852087595D0059F198 /* Build configuration list for PBXNativeTarget "Snappic" */;
+			buildPhases = (
+				D04B3D7EAB909AB89AB1D5D3 /* [CP] Check Pods Manifest.lock */,
+				40A2F9592087595C0059F198 /* Sources */,
+				40A2F95A2087595C0059F198 /* Frameworks */,
+				40A2F95B2087595C0059F198 /* Resources */,
+				36BC6CEB0CC726A8C3F4817A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snappic;
+			productName = Snappic;
+			productReference = 40A2F95D2087595C0059F198 /* Snappic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40A2F9702087595D0059F198 /* SnappicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A2F9882087595D0059F198 /* Build configuration list for PBXNativeTarget "SnappicTests" */;
+			buildPhases = (
+				A7441F2B575E609A6785F240 /* [CP] Check Pods Manifest.lock */,
+				40A2F96D2087595D0059F198 /* Sources */,
+				40A2F96E2087595D0059F198 /* Frameworks */,
+				40A2F96F2087595D0059F198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A2F9732087595D0059F198 /* PBXTargetDependency */,
+			);
+			name = SnappicTests;
+			productName = SnappicTests;
+			productReference = 40A2F9712087595D0059F198 /* SnappicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40A2F97B2087595D0059F198 /* SnappicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A2F98B2087595D0059F198 /* Build configuration list for PBXNativeTarget "SnappicUITests" */;
+			buildPhases = (
+				BA97E3405775EE3A90B1DEFA /* [CP] Check Pods Manifest.lock */,
+				40A2F9782087595D0059F198 /* Sources */,
+				40A2F9792087595D0059F198 /* Frameworks */,
+				40A2F97A2087595D0059F198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A2F97E2087595D0059F198 /* PBXTargetDependency */,
+			);
+			name = SnappicUITests;
+			productName = SnappicUITests;
+			productReference = 40A2F97C2087595D0059F198 /* SnappicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40A2F9552087595C0059F198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Shivono;
+				TargetAttributes = {
+					40A2F95C2087595C0059F198 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					40A2F9702087595D0059F198 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40A2F95C2087595C0059F198;
+					};
+					40A2F97B2087595D0059F198 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40A2F95C2087595C0059F198;
+					};
+				};
+			};
+			buildConfigurationList = 40A2F9582087595C0059F198 /* Build configuration list for PBXProject "Snappic" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40A2F9542087595C0059F198;
+			productRefGroup = 40A2F95E2087595C0059F198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40A2F95C2087595C0059F198 /* Snappic */,
+				40A2F9702087595D0059F198 /* SnappicTests */,
+				40A2F97B2087595D0059F198 /* SnappicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A2F95B2087595C0059F198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A2F96B2087595C0059F198 /* LaunchScreen.storyboard in Resources */,
+				40A2F9682087595C0059F198 /* Assets.xcassets in Resources */,
+				40A2F998208BABA00059F198 /* Home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A2F96F2087595D0059F198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A2F97A2087595D0059F198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36BC6CEB0CC726A8C3F4817A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Snappic/Pods-Snappic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCharts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snappic/Pods-Snappic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7441F2B575E609A6785F240 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnappicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA97E3405775EE3A90B1DEFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnappicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D04B3D7EAB909AB89AB1D5D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snappic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A2F9592087595C0059F198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4047D7A2208C82B500383444 /* Session.swift in Sources */,
+				40A2F99F208BAF5F0059F198 /* IBButton.swift in Sources */,
+				40A2F993208A83560059F198 /* Env.swift in Sources */,
+				40A2F991208A82F50059F198 /* ExamplesDefaults.swift in Sources */,
+				40A2F9612087595C0059F198 /* AppDelegate.swift in Sources */,
+				40A2F99A208BABAD0059F198 /* HomeViewController.swift in Sources */,
+				40A2F9A1208BB6A90059F198 /* HomeViewIBOutlets.swift in Sources */,
+				40A2F99D208BAF3B0059F198 /* IBTextfield.swift in Sources */,
+				4047D7A5208CD2BF00383444 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A2F96D2087595D0059F198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A2F9762087595D0059F198 /* SnappicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A2F9782087595D0059F198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A2F9812087595D0059F198 /* SnappicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40A2F9732087595D0059F198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A2F95C2087595C0059F198 /* Snappic */;
+			targetProxy = 40A2F9722087595D0059F198 /* PBXContainerItemProxy */;
+		};
+		40A2F97E2087595D0059F198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A2F95C2087595C0059F198 /* Snappic */;
+			targetProxy = 40A2F97D2087595D0059F198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40A2F9692087595C0059F198 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A2F96A2087595C0059F198 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40A2F9832087595D0059F198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40A2F9842087595D0059F198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40A2F9862087595D0059F198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD322C2B62F5FB5A07EAE2E /* Pods-Snappic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WPV7PB3X4;
+				INFOPLIST_FILE = Snappic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.za.shivono..Snappic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40A2F9872087595D0059F198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092047ADEC36DF7A5D008BA1 /* Pods-Snappic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WPV7PB3X4;
+				INFOPLIST_FILE = Snappic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.za.shivono..Snappic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40A2F9892087595D0059F198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F77711DEA2EAFF7082F43A0 /* Pods-SnappicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WPV7PB3X4;
+				INFOPLIST_FILE = SnappicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.za.shivono..SnappicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snappic.app/Snappic";
+			};
+			name = Debug;
+		};
+		40A2F98A2087595D0059F198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5CA9FC15C957CC179057675 /* Pods-SnappicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WPV7PB3X4;
+				INFOPLIST_FILE = SnappicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.za.shivono..SnappicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snappic.app/Snappic";
+			};
+			name = Release;
+		};
+		40A2F98C2087595D0059F198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC76A2FC192387493E64AEDA /* Pods-SnappicUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WPV7PB3X4;
+				INFOPLIST_FILE = SnappicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.za.shivono..SnappicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snappic;
+			};
+			name = Debug;
+		};
+		40A2F98D2087595D0059F198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B69418B9661913D6DD6FFD1 /* Pods-SnappicUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WPV7PB3X4;
+				INFOPLIST_FILE = SnappicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.za.shivono..SnappicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snappic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40A2F9582087595C0059F198 /* Build configuration list for PBXProject "Snappic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A2F9832087595D0059F198 /* Debug */,
+				40A2F9842087595D0059F198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A2F9852087595D0059F198 /* Build configuration list for PBXNativeTarget "Snappic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A2F9862087595D0059F198 /* Debug */,
+				40A2F9872087595D0059F198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A2F9882087595D0059F198 /* Build configuration list for PBXNativeTarget "SnappicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A2F9892087595D0059F198 /* Debug */,
+				40A2F98A2087595D0059F198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A2F98B2087595D0059F198 /* Build configuration list for PBXNativeTarget "SnappicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A2F98C2087595D0059F198 /* Debug */,
+				40A2F98D2087595D0059F198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40A2F9552087595C0059F198 /* Project object */;
+}
