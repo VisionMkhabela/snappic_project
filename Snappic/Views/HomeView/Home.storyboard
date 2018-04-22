@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Start Time" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xSw-w8-UWF" customClass="IBTextfield" customModule="Snappic" customModuleProvider="target">
-                                <rect key="frame" x="38" y="20" width="300" height="42"/>
+                                <rect key="frame" x="37.5" y="20" width="300" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="uil-q3-Nv5"/>
                                 </constraints>
@@ -40,7 +40,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="End Time" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IQl-vZ-2LO" customClass="IBTextfield" customModule="Snappic" customModuleProvider="target">
-                                <rect key="frame" x="38" y="72" width="300" height="42"/>
+                                <rect key="frame" x="37.5" y="72" width="300" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="qmr-D4-bYg"/>
                                 </constraints>
@@ -60,7 +60,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error Message" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiY-JS-RPM">
-                                <rect key="frame" x="38" y="124" width="300" height="17"/>
+                                <rect key="frame" x="37.5" y="124" width="300" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.92342919109999999" green="0.40585572275000004" blue="0.18802642820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -72,7 +72,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="49"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Duration: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ue2-MT-aNG">
-                                                <rect key="frame" x="17" y="0.0" width="154.5" height="49"/>
+                                                <rect key="frame" x="16.5" y="0.0" width="155" height="49"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -106,7 +106,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oJ-pD-aPr" customClass="IBButton" customModule="Snappic" customModuleProvider="target">
-                                <rect key="frame" x="38" y="152" width="300" height="40"/>
+                                <rect key="frame" x="37.5" y="152" width="300" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="8mt-g8-Rwh"/>

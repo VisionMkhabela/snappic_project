@@ -12,6 +12,8 @@ import SwiftCharts
 
 class HomeViewController: UIViewController {
     
+    //MARK: Properties object
+    
     @IBOutlet fileprivate var homeOutlets: HomeViewIBOutlets!
 
     //MARK: LifeCycle methods
