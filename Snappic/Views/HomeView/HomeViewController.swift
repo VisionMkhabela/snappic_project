@@ -81,7 +81,7 @@ class HomeViewController: UIViewController {
         if sortedArray.count > 1 {
             for  index in 1..<sortedArray.count  {
                 if (sortedArray[index-1].endTime > sortedArray[index].startTime) {
-                    overlappingDifference = sortedArray[index-1].endTime - sortedArray[index].startTime
+                    overlappingDifference += sortedArray[index-1].endTime - sortedArray[index].startTime
                 }
             }
         } else {
